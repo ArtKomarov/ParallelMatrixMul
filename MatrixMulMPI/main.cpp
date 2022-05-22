@@ -25,7 +25,7 @@ int main(int argc, char **argv)
     int A_width = -1;
     int& B_height = A_width;
 
-    bool check_C = true;
+    bool check_C = false;
 
     if (rank == 0)
     {
